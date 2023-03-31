@@ -7,13 +7,15 @@ posts=[
     {
         'author':'Ravi',
         'content' : 'First post on this site',
-        'date': "august month post"
+        'date_posted': "august month post",
+        'title': 'post1'
     },
     {
         
         'author':'modi',
         'content' : 'Second post on this site',
-        'date': "august month post"
+        'date_posted': "august month post",
+        'title':'post2'
     }
 ]
 
