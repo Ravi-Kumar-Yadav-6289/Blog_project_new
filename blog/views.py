@@ -33,4 +33,3 @@ def about(request):
         'title': "About"
     }
     return render (request, 'blog/blog_about.html',context)
-

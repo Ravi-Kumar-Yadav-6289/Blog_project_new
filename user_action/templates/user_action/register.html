@@ -1,0 +1,15 @@
+{%extends "blog/base.html"%}
+{%block content%}
+    <div class="content-block">
+        <form action="POST">
+            {% csrf_token %}
+            <fieldset class="form-group">
+                <legend class="border-bottom mb-4">Join Us</legend>
+                {{ reg_form }}
+            </fieldset>
+        </form>
+        <div class="form-group">
+            <button class="btn btn-outline-info" type="submit">Sign Up</button>
+        </div>
+    </div>
+{%endblock content%}
